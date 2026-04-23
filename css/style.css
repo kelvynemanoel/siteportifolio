@@ -3,6 +3,26 @@
     @author Kelvyn Emanoel Cruz
 */
 
+/* Fontes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+h1,h2 {
+    font-family: "Krona One", sans-serif;
+    font-size: 1em;
+}
+
+h3, h4 {
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 112.5;
+}
+
+/* Layout */
+.Container {
+    margin: 0 auto;
+}
+
 /* Smartphone Portrait ################# >>> */
 @media (min-width: 360px) {
     body{
@@ -15,12 +35,20 @@
     body{
         background-color: burlywood;
     }
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }   
 }
 
 /* Tablet Portrait ################# >>> */
 @media (min-width: 768px) {
     body{
         background-color: rgb(231, 106, 43);
+    }
+    /* Layout */
+    .Container {
+        max-width: 720px;
     }
 }
 
@@ -29,11 +57,19 @@
     body{
         background-color: rgb(81, 169, 36);
     }
+    /* Layout */
+    .Container {
+        max-width: 960px;
+    }
 }
 
 /* Computer ################# >>> */
 @media (min-width: 1280px) {
     body{
         background-color: blueviolet;
+    }
+    /* Layout */
+    .Container {
+        max-width: 1140px;
     }
 }
