@@ -41,12 +41,12 @@
     }
 
     h1,
+    h4,
     p {
         font-family: "Comfortaa", sans-serif;
     }
 
     h2,
-    h4,
     h3 {
         font-family: "Krona One", sans-serif;
     }
@@ -166,7 +166,7 @@
         width: 200px;
         border-radius: 5%;
         transform: rotate(5deg);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 4px 100px rgba(87, 59, 9, 0.2);
         /*0 2px 4px rgba(0,0,0,0.1), 0 10px 20px rgba(0,0,0,0.1);*/
     }
 
@@ -179,24 +179,30 @@
 
     .Galeria {
         display: flex;
-        flex-wrap: wrap;
+        gap: 80px;
+        justify-content: space-evenly;
     }
 
-    .Galeria img {
-        border-radius: 20px;
+    .card a:hover {
+        display: contents;
     }
 
-    .Galeria h4 {
+    .card h4 {
+        display: none;
+        color: #fff;
         font-size: 1.5em;
+        font-weight: 700;
+        letter-spacing: 5%;
         position: relative;
-        top: -50px;
-        right: -150px;
-        background-color: rgb(243, 240, 236, 0.6);
-        backdrop-filter: blur(8px);
-        padding: 3px 18px;
-        border-radius: 30px;
-        max-width: 50%;
+        top: -66px;
+        padding: 15px 20px;
     }
+
+    .card a h4:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+    } 
+
 
     /* Sobre mim */
 
