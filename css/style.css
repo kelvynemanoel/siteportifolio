@@ -199,11 +199,14 @@ html {
     text-indent: 20px;
   }
 
+  .sobre-conteudo-paragrafo p:last-of-type{
+    background-color: var(--cor-menu);
+    padding: 20px 15px;
+  }
+
   .sobre-conteudo-paragrafo span {
     font-size: 0.9em;
     font-family: var(--fonte-titulo);
-    text-shadow: 0 0 10px rgba(0, 136, 255, 0.816);
-    padding: 6px;
   }
 
   /* Projetos */
@@ -440,10 +443,13 @@ html {
   }
 
   /* Galeria */
-
-  /* Projetos */
   .galeria {
     gap: 30px;
+  }
+
+  /* Contato */
+  .contato-texto {
+    text-align: center;
   }
 }
 
@@ -676,6 +682,11 @@ html {
     font-size: 3.2em;
   }
 
+  /* Projetos */
+  .projetos {
+    padding-bottom: 60px;
+  }
+
   /* Galeria */
   .galeria {
     display: flex;
@@ -791,21 +802,12 @@ html {
     padding: 80px 0 100px 0;
   }
 
-  .contato-texto h4 {
-    font-weight: 900;
-    letter-spacing: 5px;
-    padding-bottom: 15px;
-    text-transform: uppercase;
-  }
-
   .contato-texto p {
     font-size: 1.5em;
     max-width: 380px;
   }
 
   .contato-texto span {
-    font-weight: 700;
-    text-decoration: underline var(--cor-primaria) 4px;
     text-underline-offset: 12px;
   }
 
@@ -827,18 +829,6 @@ html {
     border-radius: 50px;
     box-sizing: border-box;
     /* faz como que o tamanho definido não seja utrapassado caso o padding ou o tamanho da borda mude no houver */
-  }
-
-  .contato-botoes a:hover {
-    transform: scale(1.2);
-    background-color: var(--cor-fundo);
-    border: solid var(--cor-primaria);
-    transition: all 0.4s ease;
-  }
-
-  .contato-botoes i {
-    transform: scale(1.4);
-    padding-right: 30px;
   }
 
   /* Rodapé */
