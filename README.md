@@ -32,7 +32,7 @@ A responsividade é um pilar central deste projeto. O site foi desenvolvido com 
 
 ## Acesse o projeto
 
-[Kelvyn Emanoel | Portfólio](https://kelvynemanoel.github.io/siteportifolio/)
+[Kelvyn Emanoel | Portfólio](https://kelvynemanoel.github.io/siteportfolio/)
 
 ---
 Desenvolvido por **Kelvyn Emanoel**
