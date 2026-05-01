@@ -27,8 +27,8 @@ A responsividade é um pilar central deste projeto. O site foi desenvolvido com 
 
 
 ## 🖼️ Preview
-![Preview do Portfólio](data:[img])
 <img width="1895" height="953" alt="print tela inicial site portfolio" src="img/print-preview_site.png" />
+
 
 ## Acesse o projeto
 
